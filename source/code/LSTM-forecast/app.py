@@ -244,7 +244,7 @@ def forecast():
     }
     # Returns image url back to flask microservice
     return jsonify(json_response)
-     @app.route('/api/statmisc', methods=['POST'])
+@app.route('/api/statmisc', methods=['POST'])
 def statistical_analysis():
     """
     Handles POST request to perform statistical analysis on GitHub issues data.
